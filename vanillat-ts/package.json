@@ -1,0 +1,29 @@
+{
+  "name": "vanillat-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.3.0",
+    "vitest": "^3.1.1"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.27.0",
+    "@types/webpack": "^5.28.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^10.0.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typesxml": "^1.7.0",
+    "webpack": "^5.99.5"
+  }
+}
